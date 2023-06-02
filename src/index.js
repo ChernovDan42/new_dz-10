@@ -27,7 +27,7 @@ newCatApiServise.fetchBreeds().then(cats => {
     
 }).catch((error) => {
 
-        Notiflix.Notify.failure('Oops! Something went wrong! Try reloading the page!');
+    Notiflix.Notify.failure('Oops! Something went wrong! Try reloading the page!');
         console.log(error);
         refs.loader.classList.add('is-hidden')
 })
@@ -51,6 +51,7 @@ function onChangeSelect() {
     }).catch((error) => {
          Notiflix.Notify.failure('Oops! Something went wrong! Try reloading the page!');
         console.log(error.message)
+          refs.loader.classList.add('is-hidden')
     })
 
     

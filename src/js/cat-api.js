@@ -1,12 +1,6 @@
-import {refs} from './refs'
-
 const URL = 'https://api.thecatapi.com/v1/'
-
 const KEY='live_ju7SxrIykIbUAudK5xd6mda8PymEqAP09yRS8OUuBSjHA7SDpCtbAdvcDeQD9TDF'
-let storedBreeds = []
 
-
-// then(console.log).
 
 
 export class NewCatApiServise{
