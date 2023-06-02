@@ -1,6 +1,5 @@
 import { refs } from "./refs";
 
-let storedBreeds=[]
 
 export function fillSelect(data) {
    
