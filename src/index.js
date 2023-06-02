@@ -6,7 +6,7 @@ import SlimSelect from 'slim-select'
 import {options} from './js/helpers/select_options'
 import Notiflix from 'notiflix';
 
-
+let storedBreeds=[]
 
 
 
